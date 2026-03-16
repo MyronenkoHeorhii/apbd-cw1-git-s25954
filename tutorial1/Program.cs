@@ -53,6 +53,11 @@ public class MyClass
         }
         return max;
     }
+
+    public static int CalculateMin(int[] values)
+    {
+        return 0;
+    }
 }
 
 
