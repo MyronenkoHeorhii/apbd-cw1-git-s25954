@@ -12,15 +12,18 @@ public class MyClass
     {
         Console.WriteLine("Please enter a number: \n");
         string number = Console.ReadLine();
-        //Console.WriteLine(number);
-        
-        if (Convert.ToInt32(number).GetType() == typeof(int))
+        try
         {
-            Console.WriteLine("Thanks");
+            if (Convert.ToInt32(number).GetType() == typeof(int))
+            {
+                Console.WriteLine("Thanks");
+            }
         }
-
-
-
+        catch (FormatException e)
+        {
+            Console.WriteLine("not a number");
+        }
+        
     }
 }
 
