@@ -1,14 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+namespace tutorial1;
+    
 public class MyClass
 {
     public static void Main()
     {
-        checkNumber();
-        Console.WriteLine("Hello, World!");
+        CheckNumber();
+        //Console.WriteLine("Hello, World!");
     }
 
-    public static void checkNumber()
+    public static void CheckNumber()
     {
         Console.WriteLine("Please enter a number: \n");
         string number = Console.ReadLine();
@@ -23,6 +25,7 @@ public class MyClass
         {
             Console.WriteLine("not a number");
         }
+        //catch ()
         
     }
 }
