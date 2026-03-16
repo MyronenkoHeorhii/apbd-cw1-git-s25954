@@ -56,15 +56,15 @@ public class MyClass
 
     public static int CalculateMin(int[] values)
     {
-        int min = values[0];
+        int minResult = values[0];
         foreach (var x in values)
         {
-            if (x < min)
+            if (x < minResult)
             {
-                min = x;
+                minResult = x;
             }
         }
-        return min;
+        return minResult;
     }
 }
 
