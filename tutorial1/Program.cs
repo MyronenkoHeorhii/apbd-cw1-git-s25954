@@ -28,6 +28,15 @@ public class MyClass
         //catch ()
         
     }
+
+    public static int CalculateAverage(int[] values)
+    {
+        int sum = 0;
+        foreach(int x in values){
+            sum += x;
+        }
+        return sum / values.Length;
+    }
 }
 
 
