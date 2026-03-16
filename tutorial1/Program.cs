@@ -8,6 +8,8 @@ public class MyClass
     {
         CheckNumber();
         //Console.WriteLine("Hello, World!");
+        Console.WriteLine("Average: " + CalculateAverage(new []{1, 2, 3, 4, 5}));
+        
     }
 
     public static void CheckNumber()
