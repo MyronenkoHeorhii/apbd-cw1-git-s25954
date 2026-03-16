@@ -56,6 +56,8 @@ public class MyClass
 
     public static int CalculateMin(int[] values)
     {
+        Console.WriteLine("Calculating minimum...");
+        int minValue = values[0];
         int minResult = values[0];
         foreach (var x in values)
         {
