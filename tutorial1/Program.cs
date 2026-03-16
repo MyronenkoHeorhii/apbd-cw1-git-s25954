@@ -6,6 +6,12 @@ public class MyClass
     {
         Console.WriteLine("Hello, World!");
     }
+
+    public static void checkNumber()
+    {
+        Console.Write("Please enter a number: ");
+        string number = Console.ReadLine();
+    }
 }
 
 
